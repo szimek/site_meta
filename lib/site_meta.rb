@@ -206,3 +206,5 @@ module SiteMeta
   end
 
 end
+
+ActiveSupport.on_load(:action_view) { include SiteMeta }
